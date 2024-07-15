@@ -108,8 +108,8 @@ def main():
             user_input(user_question)
 
         with st.sidebar:
-            st.title("Menu: ")
-            pdf_docs = st.file_uploader("upload your PDF files", accept_multiple_files=True, type=['pdf'])
+            st.title("PDF file(s)")
+            pdf_docs = st.file_uploader("Upload your PDF file(s) here:", accept_multiple_files=True, type=['pdf'])
             if st.button ("submit and process"):
                 if pdf_docs:
                     with st.spinner('preprocessing...'):
