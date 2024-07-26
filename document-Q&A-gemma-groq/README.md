@@ -6,11 +6,11 @@ This Streamlit app leverages the power of Langchain, Groq's Gemma LLM, and Googl
 
 ## Key Features:
 
-**Handle multiple PDFs**: Easily upload multiple PDFs for analysis.
-**Rapid Vector Store Creation**: Efficiently generates vector embeddings using FAISS for lightning-fast similarity search.
-**Intelligent Question Answering**: Ask precise questions and receive accurate, context-aware answers from the provided documents.
-**Transparent Contextual Understanding**: Explore relevant document excerpts for enhanced comprehension.
-**Cutting-Edge Technology Stack**: Built with Langchain, Groq's Gemma LLM, Google Generative AI Embeddings, Streamlit, and FAISS for optimal performance.
+* **Handle multiple PDFs**: Easily upload multiple PDFs for analysis.
+* **Rapid Vector Store Creation**: Efficiently generates vector embeddings using FAISS for lightning-fast similarity search.
+* **Intelligent Question Answering**: Ask precise questions and receive accurate, context-aware answers from the provided documents.
+* **Transparent Contextual Understanding**: Explore relevant document excerpts for enhanced comprehension.
+* **Cutting-Edge Technology Stack**: Built with Langchain, Groq's Gemma LLM, Google Generative AI Embeddings, Streamlit, and FAISS for optimal performance.
 
 ## How it Works:
 
