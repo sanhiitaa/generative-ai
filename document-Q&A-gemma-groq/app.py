@@ -101,12 +101,11 @@ def input_prompt():
 # defining main function
 def main():
     # title of the app page
-    st.title('Gemma Model Document Q&A')
-
+    st.title('Chat with your PDF(s)!')
+    st.write("Got some PDFs? Upload them here and ask any questions you have about the content!")
+    st.write("---"*50)
     # upload files
-    st.write("### Upload your PDFs")
-
-    docs = st.file_uploader("Upload your PDFs", accept_multiple_files=True, type=['pdf'])
+    docs = st.file_uploader("Upload your PDF(s) here:", accept_multiple_files=True, type=['pdf'])
     
     if docs:
         st.write("PDF(s) uploaded successfully!")
