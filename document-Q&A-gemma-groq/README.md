@@ -21,12 +21,12 @@ This Streamlit app leverages the power of Langchain, Groq's Gemma LLM, and Googl
 
 ## Technologies Used:
 
-* Python
-* Streamlit
-* Langchain
-* Groq Gemma
-* Google Generative AI Embeddings
-* FAISS
-* PyPDF2
+* **Streamlit**: For building the interactive web interface.
+* **Langchain**: For handling document processing and chaining.
+* **PyPDF2**: For extracting text from PDF files.
+* **FAISS**: For creating and managing the vector store for similarity searches.
+* **Google Generative AI Embeddings**: For generating vector embeddings.
+* **ChatGroq (Gemma-7b-it)**: As the language model for generating responses.
+* **dotenv**: For managing API keys and environment variables.
 
 **Note**: Requires Groq and Google Cloud API keys.
